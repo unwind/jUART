@@ -104,11 +104,13 @@ Here is an echo test example, which is contained in the /example directory.
 * 2. Run `python fbgen.py` in firebreath-dev, please set "Plugin Name" to jUART
 * 3. Goto firebreath-dev/projects, delete the jUART directory
 * 4. Same in firebreath-dev/projects, run ``git clone git@github.com:billhsu/jUART.git``
-* 5. **Windows:** `prep2008.cmd` (or `prep2005.cmd` / `prep2010.cmd`if you have VS2005/2010) **Linux:** `./prepmake.sh` **Mac:** `./prepmac.sh`
-* 6. **Windows:** open build/Firebreath.xxx **Linux:**``cd build/`` then ``make``
+* 5. Building is different for each platform:
+  - Windows: `prep2008.cmd` (or `prep2005.cmd` / `prep2010.cmd`if you have VS2005/2010), then open build/Firebreath.xxx
+  - Linux: `./prepmake.sh` then `cd build && make`
+  - Mac: `./prepmac.sh`
 
 ##Author
-**Bill Hsu**
+jUART was created by **Bill Hsu**.
 
 + http://BillHsu.me
 + http://twitter.com/1991bill
